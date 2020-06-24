@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "strict": true, // 애를 해야 다 체크해줌
+      "lib": ["es2019", "dom"],
+      "jsx": "react",
+      "types": ["node", "react"]
+    },
+    "exclude": ["typings/browser.d.ts", "typings/browser", "node_modules"],
+    "skipLibCheck": true
+  }
+  
